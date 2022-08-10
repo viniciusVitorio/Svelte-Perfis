@@ -37,7 +37,7 @@
 <form on:submit|preventDefault={aoSubmeter}>
   <input
     type="text"
-    placeholder="Pesquise aqui o usuário"
+    placeholder="Pesquise aqui o usuário do GitHub"
     class="input"
     class:erro-input={statusDeErro === 404}
     bind:value={valorInput}
